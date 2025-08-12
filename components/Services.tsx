@@ -21,7 +21,7 @@ const services = [
     description: 'Professional real estate brokerage and agency services for buying, selling, and leasing properties.',
     features: ['Property Sales', 'Property Leasing', 'Agency Services', 'Market Analysis'],
     icon: faHandshake,
-    status: 'coming-soon',
+    status: 'available',
     cta: 'Learn More',
     link: '#brokerage',
     featured: false
@@ -32,7 +32,7 @@ const services = [
     description: 'Comprehensive support services including property management, legal assistance, and investment consulting.',
     features: ['Property Management', 'Legal Support', 'Investment Consulting', 'Documentation'],
     icon: faCogs,
-    status: 'coming-soon',
+    status: 'available',
     cta: 'Explore Services',
     link: '#ancillary',
     featured: false
@@ -43,7 +43,7 @@ const services = [
     description: 'Strategic real estate investment opportunities and portfolio management for optimal returns.',
     features: ['Investment Opportunities', 'Portfolio Management', 'Market Analysis', 'ROI Optimization'],
     icon: faHome,
-    status: 'coming-soon',
+    status: 'available',
     cta: 'Invest Now',
     link: '#investment',
     featured: false
@@ -54,7 +54,7 @@ const services = [
     description: 'Comprehensive property leasing services and professional property management solutions.',
     features: ['Property Leasing', 'Tenant Management', 'Maintenance Services', 'Rent Collection'],
     icon: faBuilding,
-    status: 'coming-soon',
+    status: 'available',
     cta: 'Manage Properties',
     link: '#leasing',
     featured: false
