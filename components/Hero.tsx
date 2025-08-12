@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="container">
           <h1 className="hero-title">Larnacei Global Limited</h1>
           <h2 className="hero-subtitle">Redefining luxury, elevating lifestyle across Nigeria</h2>
-          <p className="hero-description">Your premier partner for real estate, construction, cryptocurrency trading, and global travel services</p>
+          <p className="hero-description">Brokerage and Agency Services, Ancillary Services, Real Estate Investment, Property Leasing and Management, Property Development and Construction.</p>
           <div className="hero-buttons">
             <a href="https://properties.larnaceiglobal.com" className="btn btn-primary">
               <FontAwesomeIcon icon={faBuilding} />

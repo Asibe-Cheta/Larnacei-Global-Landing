@@ -94,11 +94,11 @@ Please contact me for more information.`
               <h2 className="section-title">Our Mission & Vision</h2>
               <div className="mission-item">
                 <h3><FontAwesomeIcon icon={faBullseye} /> Mission</h3>
-                <p>To deliver high-quality, innovative, and affordable solutions in housing, digital finance, and travel — enhancing lifestyles across borders.</p>
+                <p>To deliver high-quality, innovative, and affordable solutions in real estate, property development, and construction — enhancing lifestyles across Nigeria.</p>
               </div>
               <div className="mission-item">
                 <h3><FontAwesomeIcon icon={faEye} /> Vision</h3>
-                <p>To become a globally recognized brand in real estate, construction, cryptocurrency, and travel services — setting standards in integrity, creativity, and excellence.</p>
+                <p>To become a globally recognized brand in real estate, property development, and construction services — setting standards in integrity, creativity, and excellence.</p>
               </div>
             </div>
             
@@ -291,9 +291,11 @@ Please contact me for more information.`
                   <select name="service" required>
                     <option value="">Select Service</option>
                     <option value="real-estate">Real Estate</option>
-                    <option value="construction">Construction</option>
-                    <option value="crypto">Cryptocurrency Trading</option>
-                    <option value="travel">Travel Services</option>
+                    <option value="brokerage">Brokerage and Agency Services</option>
+                    <option value="ancillary">Ancillary Services</option>
+                    <option value="investment">Real Estate Investment</option>
+                    <option value="leasing">Property Leasing and Management</option>
+                    <option value="development">Property Development and Construction</option>
                   </select>
                 </div>
                 <div className="form-group">
@@ -331,9 +333,11 @@ Please contact me for more information.`
               <h3>Services</h3>
               <ul>
                 <li><a href="https://properties.larnaceiglobal.com">Real Estate</a></li>
-                <li><a href="#construction">Construction</a></li>
-                <li><a href="#crypto">Crypto Trading</a></li>
-                <li><a href="#travel">Travel Services</a></li>
+                <li><a href="#brokerage">Brokerage and Agency Services</a></li>
+                <li><a href="#ancillary">Ancillary Services</a></li>
+                <li><a href="#investment">Real Estate Investment</a></li>
+                <li><a href="#leasing">Property Leasing and Management</a></li>
+                <li><a href="#development">Property Development and Construction</a></li>
               </ul>
             </div>
             

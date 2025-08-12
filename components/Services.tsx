@@ -1,7 +1,7 @@
 'use client'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faHardHat, faChartLine, faPlane } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faHardHat, faHandshake, faHome, faCogs, faHammer } from '@fortawesome/free-solid-svg-icons'
 
 const services = [
   {
@@ -16,36 +16,58 @@ const services = [
     featured: true
   },
   {
-    id: 'construction',
-    title: 'Expert Construction',
-    description: 'Top-tier construction and engineering solutions for bespoke residential and large-scale commercial projects.',
-    features: ['Residential Projects', 'Commercial Construction', 'Engineering Solutions', 'Quality Delivery'],
-    icon: faHardHat,
+    id: 'brokerage',
+    title: 'Brokerage and Agency Services',
+    description: 'Professional real estate brokerage and agency services for buying, selling, and leasing properties.',
+    features: ['Property Sales', 'Property Leasing', 'Agency Services', 'Market Analysis'],
+    icon: faHandshake,
     status: 'coming-soon',
-    cta: 'View Projects',
-    link: '#construction',
+    cta: 'Learn More',
+    link: '#brokerage',
     featured: false
   },
   {
-    id: 'crypto',
-    title: 'Crypto Trading Solutions',
-    description: 'Secure, guided, and intelligent cryptocurrency trading for beginners, professionals, and businesses.',
-    features: ['Beginner Trading', 'Professional Services', 'Business Solutions', 'Secure Platform'],
-    icon: faChartLine,
+    id: 'ancillary',
+    title: 'Ancillary Services',
+    description: 'Comprehensive support services including property management, legal assistance, and investment consulting.',
+    features: ['Property Management', 'Legal Support', 'Investment Consulting', 'Documentation'],
+    icon: faCogs,
     status: 'coming-soon',
-    cta: 'Start Trading',
-    link: '#crypto',
+    cta: 'Explore Services',
+    link: '#ancillary',
     featured: false
   },
   {
-    id: 'travel',
-    title: 'Global Travel Support',
-    description: 'Simplifying international travel with expert visa application support for tourism, education, work, and relocation.',
-    features: ['Tourist Visas', 'Student Visas', 'Work Permits', 'Travel Consultation'],
-    icon: faPlane,
+    id: 'investment',
+    title: 'Real Estate Investment',
+    description: 'Strategic real estate investment opportunities and portfolio management for optimal returns.',
+    features: ['Investment Opportunities', 'Portfolio Management', 'Market Analysis', 'ROI Optimization'],
+    icon: faHome,
     status: 'coming-soon',
-    cta: 'Plan Your Journey',
-    link: '#travel',
+    cta: 'Invest Now',
+    link: '#investment',
+    featured: false
+  },
+  {
+    id: 'leasing',
+    title: 'Property Leasing and Management',
+    description: 'Comprehensive property leasing services and professional property management solutions.',
+    features: ['Property Leasing', 'Tenant Management', 'Maintenance Services', 'Rent Collection'],
+    icon: faBuilding,
+    status: 'coming-soon',
+    cta: 'Manage Properties',
+    link: '#leasing',
+    featured: false
+  },
+  {
+    id: 'development',
+    title: 'Property Development and Construction',
+    description: 'End-to-end property development and construction services for residential and commercial projects.',
+    features: ['Property Development', 'Construction Management', 'Project Planning', 'Quality Assurance'],
+    icon: faHammer,
+    status: 'coming-soon',
+    cta: 'Start Project',
+    link: '#development',
     featured: false
   }
 ]
